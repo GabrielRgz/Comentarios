@@ -60,10 +60,25 @@ namespace Comentarios
         {
             usuario = userTxt.Text;
             Comentario comment = new Comentario("127.64.12", 104, usuario, DateTime.Now, comentarioTxt.Text, 0, 0);
-            comentarios.Add(comment);
-            ComentarioDB.NuevoComentario(comment, @"C:\Users\dell\comentarios.txt");
-            Escribir(comentarios);
-            comentarioTxt.Clear();
+            if (usuario == "")
+            {
+                MessageBox.Show("No se puede comentar, se necesita un nombre de usuario", Text = "No se pudo comentar");
+                comentarioTxt.Clear();
+                userTxt.Focus();
+            }
+            else if (comentarioTxt.Text == "")
+            {
+                MessageBox.Show("No se puede comentar, no se escribió ningún mensaje", Text = "No se pudo comentar");
+                comentarioTxt.Clear();
+                comentarioTxt.Focus();
+            }
+            else
+            {
+                comentarios.Add(comment);
+                ComentarioDB.NuevoComentario(comment, @"C:\Users\dell\comentarios.txt");
+                Escribir(comentarios);
+                comentarioTxt.Clear();
+            }
         }
         
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

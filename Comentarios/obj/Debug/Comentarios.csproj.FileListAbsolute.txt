@@ -8,3 +8,13 @@ C:\Users\dell\OOP\Comentarios\obj\Debug\Comentarios.csproj.CoreCompileInputs.cac
 C:\Users\dell\OOP\Comentarios\obj\Debug\Comentarios.exe
 C:\Users\dell\OOP\Comentarios\obj\Debug\Comentarios.pdb
 C:\Users\dell\OOP\Comentarios\obj\Debug\Comentarios.Form1.resources
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\bin\Debug\Comentarios.exe.config
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\bin\Debug\Comentarios.exe
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\bin\Debug\Comentarios.pdb
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.csproj.AssemblyReference.cache
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.Form1.resources
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.Properties.Resources.resources
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.csproj.GenerateResource.cache
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.csproj.CoreCompileInputs.cache
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.exe
+C:\Users\dell\OOP\ComentariosGithub\Comentarios\obj\Debug\Comentarios.pdb
