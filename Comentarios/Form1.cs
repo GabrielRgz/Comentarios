@@ -24,7 +24,7 @@ namespace Comentarios
             {
                 if (c.Inapropiado >= 5 && c.Inapropiado > c.Likes)
                 {
-                    c.comentario = "Este comentario se ocultó debido a que ha sido marcado como inapropiado";
+                    c.comentario = "(Este comentario se ocultó debido a que ha sido marcado como inapropiado)";
                 }
                 cuerpo.Text += c;
             }

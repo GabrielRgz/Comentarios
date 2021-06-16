@@ -44,11 +44,12 @@ namespace Comentarios
             // 
             this.comentarioTxt.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.comentarioTxt.BackColor = System.Drawing.SystemColors.GrayText;
+            this.comentarioTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comentarioTxt.ForeColor = System.Drawing.SystemColors.Info;
-            this.comentarioTxt.Location = new System.Drawing.Point(146, 685);
+            this.comentarioTxt.Location = new System.Drawing.Point(27, 700);
             this.comentarioTxt.Multiline = true;
             this.comentarioTxt.Name = "comentarioTxt";
-            this.comentarioTxt.Size = new System.Drawing.Size(983, 35);
+            this.comentarioTxt.Size = new System.Drawing.Size(539, 35);
             this.comentarioTxt.TabIndex = 1;
             // 
             // enviarBtn
@@ -61,9 +62,9 @@ namespace Comentarios
             this.enviarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.enviarBtn.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enviarBtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.enviarBtn.Location = new System.Drawing.Point(1185, 676);
+            this.enviarBtn.Location = new System.Drawing.Point(587, 698);
             this.enviarBtn.Name = "enviarBtn";
-            this.enviarBtn.Size = new System.Drawing.Size(89, 55);
+            this.enviarBtn.Size = new System.Drawing.Size(67, 42);
             this.enviarBtn.TabIndex = 2;
             this.enviarBtn.UseVisualStyleBackColor = false;
             this.enviarBtn.Click += new System.EventHandler(this.enviarBtn_Click);
@@ -73,18 +74,18 @@ namespace Comentarios
             this.cuerpo.AutoSize = true;
             this.cuerpo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuerpo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.cuerpo.Location = new System.Drawing.Point(77, 96);
+            this.cuerpo.Location = new System.Drawing.Point(62, 147);
             this.cuerpo.Name = "cuerpo";
-            this.cuerpo.Size = new System.Drawing.Size(51, 16);
+            this.cuerpo.Size = new System.Drawing.Size(0, 16);
             this.cuerpo.TabIndex = 2;
-            this.cuerpo.Text = "label1";
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Malgun Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(144, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(378, 65);
             this.label1.TabIndex = 3;
@@ -92,7 +93,7 @@ namespace Comentarios
             // 
             // listBox1
             // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.listBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.listBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.ForeColor = System.Drawing.SystemColors.Menu;
@@ -101,7 +102,7 @@ namespace Comentarios
             this.listBox1.Items.AddRange(new object[] {
             "Por likes",
             "Por antiguedad"});
-            this.listBox1.Location = new System.Drawing.Point(1126, 24);
+            this.listBox1.Location = new System.Drawing.Point(169, 89);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(123, 23);
             this.listBox1.TabIndex = 3;
@@ -109,11 +110,11 @@ namespace Comentarios
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.Location = new System.Drawing.Point(1074, 28);
+            this.label3.Location = new System.Drawing.Point(117, 93);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 19);
             this.label3.TabIndex = 8;
@@ -121,11 +122,11 @@ namespace Comentarios
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(1256, 28);
+            this.label2.Location = new System.Drawing.Point(299, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(143, 19);
             this.label2.TabIndex = 9;
@@ -133,11 +134,11 @@ namespace Comentarios
             // 
             // userTxt
             // 
-            this.userTxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.userTxt.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.userTxt.BackColor = System.Drawing.SystemColors.GrayText;
             this.userTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userTxt.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.userTxt.Location = new System.Drawing.Point(1405, 28);
+            this.userTxt.Location = new System.Drawing.Point(448, 93);
             this.userTxt.Name = "userTxt";
             this.userTxt.Size = new System.Drawing.Size(112, 21);
             this.userTxt.TabIndex = 0;
@@ -147,7 +148,7 @@ namespace Comentarios
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1535, 752);
+            this.ClientSize = new System.Drawing.Size(675, 752);
             this.Controls.Add(this.userTxt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
